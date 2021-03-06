@@ -3,7 +3,7 @@
 
 <head>
    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <link href="assets/css/bootstrap.css" rel="stylesheet">
    <link href="assets/css/all.css" rel="stylesheet">
    <link href="assets/css/styles.css" rel="stylesheet">
@@ -15,13 +15,14 @@
    <div class="navbar navbar-light bg-light navbar-expand-md fixed-top">
       <div class="container">
          <a class="navbar-brand" href="#"><b>Amor</b> <i class="fas fa-heart" style="color: red;"></i></a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="BOtão de navegação">
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu"
+            aria-expanded="false" aria-label="BOtão de navegação">
             <span class="navbar-toggler-icon"></span>
          </button>
          <div class="collapse navbar-collapse" id="menu">
             <div class="navbar-nav mr-auto">
-               <a class="nav-link nav-item" href="#">Teste 1</a>
-               <a class="nav-link nav-item" href="#">Teste 2</a>
+               <a class="nav-link nav-item" href="#fotos">Nossas fotos</a>
+               <a class="nav-link nav-item" href="#paginas">Páginas</a>
             </div>
          </div>
       </div>
@@ -37,9 +38,123 @@
       </div>
    </div>
 
+   <h4 id="fotos" class="mb-3">Nossas fotos</h4>
+   <div class="row mb-4">
+      <div class="col-lg-3 col-md-6">
+         <div class="card mb-3">
+            <img src="assets/images/IMG_0289.jpeg" alt="A_Gente_Mcdonalds_1">
+            <div class="card-body">
+               <div class="text-center">
+                  <h5 class="card-title">A gente no Mcdonalds</h5>
+                  <p class="text-warning font-weight-bold">Minha foto de Whatsappp</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+         <div class="card mb-3">
+            <img src="assets/images/IMG_1011.jpeg" alt="A_Gente_Pizzaria_1">
+            <div class="card-body">
+               <div class="text-center">
+                  <h5 class="card-title">A gente no Pizzaria</h5>
+                  <p class="text-warning font-weight-bold">Essa foto é muito boa</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+         <div class="card mb-3">
+            <img src="assets/images/IMG_1005.jpeg" alt="A_Gente_Pizzaria_2">
+            <div class="card-body">
+               <div class="text-center">
+                  <h5 class="card-title">A gente no Pizzaria</h5>
+                  <p class="text-warning font-weight-bold">Essa foto é muito boa</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+         <div class="card mb-3">
+            <img src="assets/images/IMG_0285.jpeg" alt="A_Gente_Mcdonalds_2">
+            <div class="card-body">
+               <div class="text-center">
+                  <h5 class="card-title">A gente no Mcdonalds</h5>
+                  <p class="text-warning font-weight-bold">Essa foto é muito boa</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </div>
+
+   <a href="#">Mais fotos...</a>
+
+   <h4 id="paginas" class="mb-3 mt-3">Páginas</h4>
+
+   <div class="accordion mb-4" id="id-accordion">
+      <div class="card">
+         <div class="card-header" id="id-header-textos">
+            <h5 class="mb-0">
+               <a href="#id_textos" data-toggle="collapse" aria-expanded="true" aria-controls="id_textos">
+                  Textos
+               </a>
+            </h5>
+         </div>
+         <div id="id_textos" class="collapse show" data-parent="#id-accordion" aria-labelledby="id-header-textos">
+            <div class="card-body">
+               <p>Escrever um texto aqui</p>
+            </div>
+            <div class="card-footer text-right">
+               <a href="#">Leia mais textos feitos por mim</a>
+            </div>
+         </div>
+      </div>
+
+      <div class="card">
+         <div class="card-header" id="id-header-musicas">
+            <h5 class="mb-0">
+               <a href="#id_musicas" data-toggle="collapse" aria-expanded="true" aria-controls="id_musicas">
+                  Músicas
+               </a>
+            </h5>
+         </div>
+         <div id="id_musicas" class="collapse" data-parent="#id-accordion" aria-labelledby="id-header-musicas">
+            <div class="card-body">
+               <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                     <iframe src="https://open.spotify.com/embed/track/0yNhOJRnnpCpIf8wMiFE5i" width="300" height="380"
+                        frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                     <iframe src="https://open.spotify.com/embed/track/6VEauMGdcwr6s2QhWWsxpm" width="300" height="380"
+                        frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                     <iframe src="https://open.spotify.com/embed/track/58zZvqjTZdm98YhZXvsATa" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                     <iframe src="https://open.spotify.com/embed/track/0rgauqbYSJUhU1N62WUUCb" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                  </div>
+               </div>
+            </div>
+            <div class="card-footer text-right">
+               <a href="#">Para ver mais músicas selecionadas por mim</a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="footer mt-4">
+      <h5>Com muito amor, Carlos Eduardo <i class="fas fa-heart" style="color: red;"></i></h5>
+   </div>
+
    <script src="assets/js/jquery-3.3.1.js"></script>
    <script src="assets/js/popper.js"></script>
    <script src="assets/js/bootstrap.js"></script>
    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
